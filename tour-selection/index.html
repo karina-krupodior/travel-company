@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PALM</title>
+    <link rel="shortcut icon" href="../palm .png">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="tour-selection.css">
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <div>
+          
+            <a href="../index.html" class="main-header__brand">
+                <img src="../images/palmtree.png" alt="PALM">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="../packages/index.html">ВЫБРАТЬ ТУР</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="../bestsellers/index.html">ХИТЫ ПРОДАЖ</a>
+                </li>
+                <li class="main-nav__item main-nav__item--cta">
+                    <a href="index.html">ПОДБЕРИТЕ МНЕ ТУР</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="signup-page">
+        <h1 class="signup-title">Заявка на подбор тура</h1>
+        <form action="index.html" class="signup-form">
+            <label for="title">Бронировали ранее туры у нас?</label>
+            <select id="title">
+                <option value="mr">Да</option>
+                <option value="ms">Нет</option>
+            </select>
+            <label for="first-name">Имя*</label>
+            <input type="text" id="first-name" required>
+            <label for="last-name">Фамилия*</label>
+            <input type="text" id="last-name" required>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" required>
+            <label for="password">Телефон*</label>
+            <input type="password" id="password" required>
+            <input type="checkbox" id="agree-terms" required>
+            <label for="agree-terms">
+                <a href="#">Согласиться на обработку информации</a>
+            </label>
+            <button type="submit" class="button">ОТПРАВИТЬ ЗАЯВКУ</button>
+        </form>
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">+38(093) 100-08-09<br>
+                                +38(067)100-08-09</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">г.Харьков,ул.Отакара Яроша,16</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
